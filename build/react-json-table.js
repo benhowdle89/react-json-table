@@ -256,6 +256,7 @@ return /******/ (function(modules) { // webpackBootstrap
 						className: className,
 						key: key,
 						"data-key": key,
+						"data-row": props.i,
 						onClick: me.onClickCell
 					}, content );
 				})
